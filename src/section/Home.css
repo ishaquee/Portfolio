@@ -29,6 +29,7 @@ body{
   color:beige;
   margin: 10px;
   font-family: 'Monoton', cursive;
+  word-spacing: 3px;
 }
 
 .card{ 

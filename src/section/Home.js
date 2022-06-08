@@ -1,7 +1,6 @@
 import React from 'react'
 import { VscVerified } from "react-icons/vsc";
 import {MdDeveloperMode} from 'react-icons/md'
-import Typewriter from "typewriter-effect";
 import TypeWriterEffect from 'react-typewriter-effect';
 import { Link } from 'react-router-dom';
 
@@ -13,14 +12,22 @@ function Home() {
         <div className="profilepic">
           <h2 style={{fontWeight:'900',color:'white'}}>Mohamed Ishaque <span style={{display:'inline',color:'royalblue'}}><VscVerified/> </span> </h2>
                  <div className="typewriter">
-          <Typewriter
+          {/* <Typewriter
        onInit={(typewriter)=> {
        typewriter
        .typeString("Full stack Developer  🚀")         
        .pauseFor(2000)
        .start();
        }}
-       />
+       /> */}
+      <TypeWriterEffect
+            textStyle={{ fontSize: '15px' }}
+            startDelay={100}
+            cursorColor="black"
+            text="Full stack Developer  🚀"
+            typeSpeed={100}
+            
+          />
        
         </div>
         <div className="ownstyle">
