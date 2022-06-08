@@ -1,0 +1,38 @@
+ [
+    {
+        "title" : "Covid 19 tracker" ,
+        "image" : "https://content.us.lifeomic.com/lifeology/a8eff0fb-2da4-4480-929c-e7c9d78fbfc8/6c5da0ca-efb5-4756-8184-fac6253969cb/COVID-1-anim.gif",
+        "desc": "Stay up-to-date with valuable coronavirus (COVID-19) data summarized by confirmed cases, geography, testing and treatment, projections, and economic impact.",
+        "url":"https://ncov19tracking.herokuapp.com/",
+        "text":"Live"
+    },
+    {
+        "title" : "Instagram Clone" ,
+        "image" : "https://media1.giphy.com/media/QZOxRp5tZTemNQzpgc/200.gif",
+        "desc": "Instaclone is a social Media web app, where users can post their happiness and memories with their friends, and also add comments on posts. users to share images or videos with their audience",
+        "url":"https://instaclone022.herokuapp.com/",
+        "text":"Live"
+
+    },
+    {
+        "title" : "Ticket Reservation Webapp" ,
+        "image" : "https://giffiles.alphacoders.com/214/21422.gif",
+        "desc": "Search & book train tickets, Track your train status",
+        "url":"https://rr-system-2022.herokuapp.com/",
+        "text":"Live"
+    },
+    {
+        "title" : "Close Buy Web App Using Google MAPS Places API" ,
+        "image" : "https://media1.giphy.com/media/QtvEouZBOE8nPn7yFx/giphy.gif?cid=6c09b952mpa73e8negw2xqr9wt9z1tnvumvd7adxapw9hbfu&rid=giphy.gif&ct=s",
+        "desc": "",
+        "url":"#",
+        "text":"Soon"
+    },
+    {
+        "title" : "Distance Calculator Web App Using Distance Matrix API & Places API " ,
+        "image" : "https://media3.giphy.com/media/3ov9jE6m4R02OS4zgk/giphy.gif",
+        "desc": "",
+        "url":"#",
+        "text":"Soon"
+    }
+]  

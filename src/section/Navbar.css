@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
+
+
+.heading{
+    color: snow;
+    font-weight: 800;
+    font-family: 'VT323', monospace;
+    text-decoration: none;
+}
