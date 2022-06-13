@@ -1,0 +1,89 @@
+.parent {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    }
+    
+    .div1 { grid-area: 1 / 1 / 6 / 2; }
+    .div2 { grid-area: 1 / 2 / 2 / 3; }
+    .div3 { grid-area: 2 / 2 / 3 / 3; }
+    .div4 { grid-area: 3 / 2 / 4 / 3; }
+    .div5 { grid-area: 4 / 2 / 5 / 3; }
+    .div6 { grid-area: 5 / 2 / 6 / 3; }
+
+
+.div1{
+    width: 50%;
+    height: fit-content;
+    background-color: rgb(226, 173, 76);
+    padding: 15px;
+    margin: 15px;
+    border-radius: 15px;
+}
+
+.div2{
+    background-color: navy;
+    padding:  15px;
+    margin: 25px;
+    border-radius: 10px;
+    min-width: 250px;
+    color: white;
+}
+.div2 > .frontend{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+
+
+.div2 > .frontend > h6{
+    background-color: #ffa781;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #5b0e2d;
+}
+
+.div3 > .frontend{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+.div3 > .frontend > h6{
+    background-color: #ffa781;
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    color: #5b0e2d;
+
+}
+.div3{
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    margin: 25px;
+    border-radius: 10px;
+    border-radius: 10px;
+}
+.div4{
+    background-color: #efc8b1;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 10px;
+    border-radius: 10px;
+    color: #8a6626;
+}
+
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+}
+@media only screen and (max-width: 800px) {
+    .div1 {
+        width: 200px;
+        height: fit-content;
+    }
+   
+  }
