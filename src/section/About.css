@@ -1,3 +1,7 @@
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Orbitron&display=swap');
+
+
 .parent {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -12,6 +16,12 @@
     .div4 { grid-area: 3 / 2 / 4 / 3; }
     .div5 { grid-area: 4 / 2 / 5 / 3; }
     .div6 { grid-area: 5 / 2 / 6 / 3; }
+
+.date{
+    font-family: 'Orbitron', sans-serif;
+    font-size: smaller;
+    }
+
 
 
 .div1{

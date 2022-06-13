@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Blaka+Hollow&display=swap');
 
 
 body{
@@ -27,8 +28,8 @@ body{
   font-weight: 100 !important;
   color:rgb(0, 0, 0);
   margin: 10px;
-  font-family: 'Monoton', cursive;
-  word-spacing: 3px;
+  font-family: 'Blaka Hollow', cursive;
+      word-spacing: 3px;
 }
 
 .card{ 

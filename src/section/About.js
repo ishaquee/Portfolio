@@ -21,15 +21,15 @@ while making a significant contribution to the success of the company </p>
     <div style={{borderBottom:'1px solid black',marginTop:'3px'}}>
     <h6 className='center' style={{fontWeight:'800'}}>WORK EXPERIENCE</h6>
     <p style={{fontWeight:'600',color:'black'}}> <span style={{fontWeight:'bold'}}> SDET </span> at <span style={{fontWeight:'bold',color:'red'}}> ENGATI </span> Technologies Private Limited  <img src='https://branding-resources.s3.ap-south-1.amazonaws.com/default/engati-chat-icon-v2.gif' width='30px' height='30px' /> </p>
-    <p style={{fontWeight:900}}> <BsFillCalendarDateFill/> Sep 2021 - Now </p>
+    <p style={{fontWeight:100}} className='date'> <BsFillCalendarDateFill/> Sep 2021 - Now </p>
     </div>
     <div style={{borderBottom:'1px solid black',marginTop:'3px'}}>
     <h6 className='center' style={{fontWeight:'800'}}>PROJECTS </h6>
     <p style={{fontWeight:'600',color:'black'}}>  Social Media Web APP Using MERN <img src='http://assets.stickpng.com/images/5ecec6ef73e4440004f09e75.png' width='40px' height='30px'/> </p>
-    <p style={{fontWeight:900}}> <BsFillCalendarDateFill/> Jan 2022 - May 2022 <BsFillCalendarDateFill/></p>
+    <p style={{fontWeight:100}} className='date'> <BsFillCalendarDateFill/> Jan 2022 - May 2022 <BsFillCalendarDateFill/></p>
 
     <p style={{fontWeight:'600',color:'black'}}> <span style={{color:'red'}}>  Covid 19 </span> tracking Web APP <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/800px-SARS-CoV-2_without_background.png' width='30px' height='30px'/> </p>
-    <p style={{fontWeight:900}}> <BsFillCalendarDateFill/> Jun 2021 - July 2021 <BsFillCalendarDateFill/> </p>
+    <p style={{fontWeight:100}} className='date'> <BsFillCalendarDateFill/> Jun 2021 - July 2021 <BsFillCalendarDateFill/> </p>
 
     </div>
      </div>
@@ -72,11 +72,11 @@ while making a significant contribution to the success of the company </p>
 <h6 className='' style={{fontWeight:'900',fontSize:'18px',color:'Black'}}>EDUCATION</h6>
 <div style={{borderBottom:'1px solid black',marginTop:'3px'}}>
     <p style={{fontWeight:'600',color:'black'}}> <span style={{fontWeight:'bold'}}> BE - CSE </span> at <span style={{fontWeight:'bold',color:'Blue'}}> Karpagam </span> College Of Engineering  </p>
-    <p style={{fontWeight:900,color:'black'}}> <BsFillCalendarDateFill/> AUG 2018 - Now </p>
+    <p style={{fontWeight:100,color:'black'}} className='date'> <BsFillCalendarDateFill/> AUG 2018 - Now </p>
     </div>
     <div style={{borderBottom:'1px solid black',marginTop:'3px'}}>
     <p style={{fontWeight:'600',color:'black'}}> <span style={{fontWeight:'bold'}}> HSS </span> at <span style={{fontWeight:'bold',color:'Blue'}}> Bishop </span> Heber Hr Sec School  </p>
-    <p style={{fontWeight:900,color:'black'}}> <BsFillCalendarDateFill/> AUG 2016 - APR-2018 <BsFillCalendarDateFill/> </p>
+    <p style={{fontWeight:100,color:'black'}} className='date'> <BsFillCalendarDateFill/>  AUG 2016 - APR-2018 <BsFillCalendarDateFill/> </p>
     </div>
 </div>
 <div className="div5">
