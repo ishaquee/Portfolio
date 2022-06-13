@@ -50,7 +50,6 @@
     max-height: 530px;
     min-width: 350px !important;
     min-height: 500px;
-    width: 25%;
     
 }
 .projects > .card >img{
@@ -104,16 +103,3 @@ margin-bottom: auto;
 background-color: brown;
 color: whitesmoke;
  }
-
- @media screen and (max-width: 900px) {
-   .ProjectPage > .projects > .card{
-       min-width: 47% !important;
-   }
-   .projects{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-between;
-    align-content: space-between;
-   }
-  }
