@@ -33,7 +33,7 @@ function Home() {
         <div className="ownstyle">
           <Link to='/Projects' style={{ textDecoration: 'none',color:'black' }}> <div className="card">  Projects </div> </Link>
            <Link to='/About' style={{ textDecoration: 'none',color:'black' }}><div className="card"> About </div> </Link>
-          <Link to='/Contact' style={{ textDecoration: 'none',color:'black' }}> <div className="card"> Contact </div> </Link>
+          {/* <Link to='/Contact' style={{ textDecoration: 'none',color:'black' }}> <div className="card"> Contact </div> </Link> */}
         </div>
         </div>
         

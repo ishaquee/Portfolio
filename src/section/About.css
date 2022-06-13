@@ -15,7 +15,7 @@
 
 
 .div1{
-    width: 50%;
+    width: 100%;
     height: fit-content;
     background-color: rgb(226, 173, 76);
     padding: 15px;
@@ -30,6 +30,7 @@
     border-radius: 10px;
     min-width: 250px;
     color: white;
+    width: 300px;
 }
 .div2 > .frontend{
     display: flex;
@@ -51,6 +52,33 @@
     flex-wrap: wrap;
     max-width: 250px;
 }
+
+.div5 > .frontend{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 250px;
+}
+
+.div5 > .frontend > a > h6{
+    background-color: #7db0de;
+    margin: 5px;
+    border-radius: 5px;
+    color: #12395d;
+}
+.div5 > .frontend >  h6{
+    background-color: #999999;
+    margin: 5px;
+    border-radius: 5px;
+    color: #12395d;
+}
+
+a:link {
+    text-decoration: underline;
+}
+a:hover {
+    text-decoration: none;
+}
+
 .div3 > .frontend > h6{
     background-color: #ffa781;
     padding: 10px;
@@ -65,6 +93,8 @@
     margin: 25px;
     border-radius: 10px;
     border-radius: 10px;
+    width: 300px;
+    width: 300px;
 }
 .div4{
     background-color: #efc8b1;
@@ -72,7 +102,25 @@
     margin: 25px;
     border-radius: 10px;
     border-radius: 10px;
+    width: 300px;
+
     color: #8a6626;
+}
+
+.div5{
+    background-color: #1d5c96;
+    padding: 10px;
+    margin: 25px;
+    border-radius: 10px;
+    border-radius: 10px;
+    color: #8a6626;
+    width: 300px;
+}
+.div5 >  .contact{
+    display: flex !important;
+    flex-wrap: wrap !important;
+    max-width: 250px;
+    width: 150px;
 }
 
 

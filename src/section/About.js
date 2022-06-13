@@ -1,7 +1,9 @@
 import React from 'react'
 import './About.css'
-import {FaUserCircle} from 'react-icons/fa'
+import {FaUserCircle,FaLinkedin,FaInstagram} from 'react-icons/fa'
 import {BsFillCalendarDateFill} from 'react-icons/bs'
+import {GiThink} from 'react-icons/gi'
+import {FiMail,FiLinkedin} from 'react-icons/fi'
 function About() {
   return (
   
@@ -23,11 +25,11 @@ while making a significant contribution to the success of the company </p>
     </div>
     <div style={{borderBottom:'1px solid black',marginTop:'3px'}}>
     <h6 className='center' style={{fontWeight:'800'}}>PROJECTS </h6>
-    <p style={{fontWeight:'600',color:'black'}}>  Social Media Web APP Using MERN <img src='http://assets.stickpng.com/images/5ecec6ef73e4440004f09e75.png' width='30px' height='30px'/> </p>
-    <p style={{fontWeight:900}}> <BsFillCalendarDateFill/> Jan 2022 - May 2022 </p>
+    <p style={{fontWeight:'600',color:'black'}}>  Social Media Web APP Using MERN <img src='http://assets.stickpng.com/images/5ecec6ef73e4440004f09e75.png' width='40px' height='30px'/> </p>
+    <p style={{fontWeight:900}}> <BsFillCalendarDateFill/> Jan 2022 - May 2022 <BsFillCalendarDateFill/></p>
 
     <p style={{fontWeight:'600',color:'black'}}> <span style={{color:'red'}}>  Covid 19 </span> tracking Web APP <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/800px-SARS-CoV-2_without_background.png' width='30px' height='30px'/> </p>
-    <p style={{fontWeight:900}}> <BsFillCalendarDateFill/> Jun 2021 - July 2021</p>
+    <p style={{fontWeight:900}}> <BsFillCalendarDateFill/> Jun 2021 - July 2021 <BsFillCalendarDateFill/> </p>
 
     </div>
      </div>
@@ -67,15 +69,23 @@ while making a significant contribution to the success of the company </p>
 
      </div>
 <div class="div4"> 
-<h6 className='center' style={{fontWeight:'900',fontSize:'15px'}}>Education</h6>
+<h6 className='' style={{fontWeight:'900',fontSize:'18px',color:'Black'}}>EDUCATION</h6>
 <div style={{borderBottom:'1px solid black',marginTop:'3px'}}>
     <p style={{fontWeight:'600',color:'black'}}> <span style={{fontWeight:'bold'}}> BE - CSE </span> at <span style={{fontWeight:'bold',color:'Blue'}}> Karpagam </span> College Of Engineering  </p>
     <p style={{fontWeight:900,color:'black'}}> <BsFillCalendarDateFill/> AUG 2018 - Now </p>
     </div>
     <div style={{borderBottom:'1px solid black',marginTop:'3px'}}>
-    <p style={{fontWeight:'600',color:'black'}}> <span style={{fontWeight:'bold'}}> HSC </span> at <span style={{fontWeight:'bold',color:'Blue'}}> Bishop </span> Heber Hr Sec School  </p>
-    <p style={{fontWeight:900,color:'black'}}> <BsFillCalendarDateFill/> AUG 2016 - APR-2018 </p>
+    <p style={{fontWeight:'600',color:'black'}}> <span style={{fontWeight:'bold'}}> HSS </span> at <span style={{fontWeight:'bold',color:'Blue'}}> Bishop </span> Heber Hr Sec School  </p>
+    <p style={{fontWeight:900,color:'black'}}> <BsFillCalendarDateFill/> AUG 2016 - APR-2018 <BsFillCalendarDateFill/> </p>
     </div>
+</div>
+<div className="div5">
+<h6 style={{fontWeight:'900',color:'Highlight',fontSize:'18px'}} className='' > How to reach me <GiThink/> ? </h6>
+<div className='frontend'> 
+ <a href='mailto:ishaquemohamed5@gmail.com' style={{textDecoration:"none"}}><h6 style={{fontWeight:'bold',padding:'10px',textDecoration:'none'}}>Email <span style={{color:'darkred'}}><FiMail/> </span>  </h6></a> 
+ <a href='https://www.linkedin.com/in/smishaque/' target="_blank" style={{textDecoration:"none"}}><h6 style={{fontWeight:'bold',padding:'10px',textDecoration:'none'}}>Linkedin <span style={{color:'darkblue'}}> <FaLinkedin/></span>  </h6></a> 
+ <a href='https://www.instagram.com/ishaque_110/' target="_blank" style={{textDecoration:"none"}}><h6 style={{fontWeight:'bold',padding:'10px',textDecoration:'none'}}>Instagram <span style={{color:'red'}}><FaInstagram/> </span>  </h6></a> 
+</div>
 </div>
 
 </div>
