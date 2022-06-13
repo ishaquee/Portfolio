@@ -48,9 +48,8 @@
     border-bottom: 3px solid rgb(0, 0, 0);
     padding: 10px;
     max-height: 530px;
-    min-width: 350px !important;
     min-height: 500px;
-    
+    width: ;
 }
 .projects > .card >img{
     border-radius: 10px;

@@ -10,7 +10,7 @@ function Projects() {
               {
                  data ? data.map((item)=> {
                      return(
-<div className="card">
+<div className="card" style={{width:'300px'}}>
   <img className="card-img-top" src={item.image} style={{width:'200px',height:'200px'}} alt="Card  cap"/>
   <div className="card-body">
     <h5 className="card-title">{item.title}</h5>
