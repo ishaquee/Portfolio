@@ -12,8 +12,8 @@
     flex-wrap: wrap;
     padding: 5px;
     margin: 2px;
-    background-color: slategray ;
-    color: whitesmoke;
+    background-color: #08AEEA;
+background-image: linear-gradient(0deg, #08AEEA 0%, #2AF598 100%);
     font-weight: bolder;
     border-radius: 5px;
     font-size: 10px;
@@ -23,9 +23,9 @@
 
 .ProjectPage{
     margin: 5%;
-    border: 3px solid rgb(0, 0, 0);
     color: rgb(0, 0, 0);
     padding: 5px;   
+    
 }
 .royal{
     display: flex;
@@ -49,7 +49,11 @@
     padding: 10px;
     max-height: 530px;
     min-height: 500px;
-    width: ;
+    background-color: #FBAB7E;
+    border-radius: 15px;
+background-image: linear-gradient(62deg, #FBAB7E 0%, #F7CE68 100%);
+
+    
 }
 .projects > .card >img{
     border-radius: 10px;
@@ -57,11 +61,11 @@
 
 }
 .card-text{
-    padding: 5px;
     font-size: 15px;
     max-height: 70px;
-    width: 250px;
     overflow: auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
 }
 
 .projects{
@@ -73,7 +77,7 @@
 }
 
 .projects > .card >img:hover{
-   transform: scale(1.1);
+   transform: scale(1.05);
    transition: all 0.8s ease;
 
 }
@@ -89,14 +93,15 @@ margin-bottom: auto;
 }
 
 .btn{
-    color: rgb(0, 0, 0);
-    background-color: rgb(0, 195, 255);
     height: auto;
     font-size: 15px;
     font-weight: 900;
   width: 100px;
   transition: all 0.8s ease;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
+ background-color:darkgray;
+ color: black;
+
  }
  .btn:hover{
 background-color: brown;

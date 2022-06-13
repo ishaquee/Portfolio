@@ -10,7 +10,7 @@ function Home() {
   return (
     <div className='Homepage'> 
         <div className="profilepic">
-          <h2 style={{fontWeight:'900',color:'black'}}>Mohamed Ishaque <span style={{display:'inline',color:'royalblue'}}><VscVerified/> </span> </h2>
+          <h2 style={{fontWeight:'900',color:'black',fontSize:'45px'}}>Mohamed Ishaque <span style={{display:'inline',color:'royalblue'}}><VscVerified/> </span> </h2>
                  <div className="typewriter">
           {/* <Typewriter
        onInit={(typewriter)=> {
@@ -21,7 +21,7 @@ function Home() {
        }}
        /> */}
       <TypeWriterEffect
-            textStyle={{ fontSize: '15px' }}
+            textStyle={{ fontSize: '35px' }}
             startDelay={100}
             cursorColor="black"
             text="Full stack Developer  🚀"
