@@ -12,22 +12,22 @@ function Contact() {
         <div className='service' >
         <img src='https://media2.giphy.com/media/3de1kqCxacXCh2s3NF/200w.gif' width={'100px'} height={'100px'} style={{borderRadius:'0px'}} />
 
-          <h5> <span style={{color:'darkBlue'}}> Wordpress</span>  Development   </h5>
+          <h5>  <span style={{borderBottom:'0.1px solid black'}}> <span style={{color:'darkBlue'}}> Wordpress</span>  Development </span>  </h5>
           <p>We design and implement websites for companies using the WordPress creation tool. We are responsible for both front-end and back-end development, including the implementation of themes and plugins. our goal is to create attractive and user-friendly websites according to client specifications.</p>
         </div>
         <div className='center service' >
           <img src='https://i.pinimg.com/originals/16/fe/7e/16fe7e7fb6eebb3087b6dc418748ee56.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px'}} />
-          <h5> <span style={{color:'red'}}> Front</span> end / <span style={{color:'red'}}> UI</span>  Development </h5>
+          <h5> <span style={{borderBottom:'1px solid black'}}> <span style={{color:'red'}}> Front</span> end / <span style={{color:'red'}}> UI</span>  Development </span> </h5>
           <p> We are Build web applications with web development best practices. Transform app designs into front-end code with HTML, CSS, and JavaScript </p>
         </div>
         <div className='service' >
           <img src='https://onepatch.com/wp-content/uploads/2020/03/NODEJS_CIRCLE.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px',margin:'5px'}} />
-          <h5> <span style={{color:'darkgreen',fontWeight:'bolder'}}> Backend</span> Development </h5>
+          <h5> <span style={{borderBottom:'1px solid black'}}> <span style={{color:'darkgreen',fontWeight:'bolder'}}> Backend</span> Development </span> </h5>
           <p>We will be managing the exchange of data between the server and the users. we will be focus on the development of all server-side logic, maintenance, and definition of the central database, and ensuring high performance and responsiveness to requests from the front-end</p>
         </div>
         <div className='service'>
         <img src='https://i.pinimg.com/originals/fc/71/63/fc71635c7f1b09ed30413f59bb749582.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px',margin:'5px'}} />
-          <h5>  <span style={{color:'darkorange',fontWeight:'bolder'}}> Data </span>   Analytics <span style={{fontSize:'12px'}}> (Tableau & PowerBi)</span> </h5>
+          <h5> <span style={{borderBottom:'1px solid black'}}>  <span style={{color:'darkorange',fontWeight:'bolder'}}> Data </span>   Analytics <span style={{fontSize:'12px'}}> (Tableau & PowerBi)</span> </span> </h5>
           <p>collects and analyzes data across the business to make informed decisions or assist other team members and leadership in making sound decisions.</p>
         </div>
       </div>
