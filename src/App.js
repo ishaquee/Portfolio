@@ -5,6 +5,8 @@ import { BrowserRouter, Route, Routes , useNavigate} from 'react-router-dom';
 import Projects from './section/Projects';
 import About from './section/About';
 import About1 from './section/About1';
+import Contact from './section/Contact';
+import Footer from './section/Footer';
 
 function App() {
 
@@ -16,6 +18,7 @@ function App() {
         <Route  path="/About"  element={<About1 />} />
         <Route  path="/Projects"  element={<Projects />} />
         <Route  path="/resume"  element={<About />} />
+        <Route  path="/contact"  element={<Contact />} />
         </Routes>
         </BrowserRouter>
 

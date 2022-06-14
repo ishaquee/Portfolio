@@ -24,6 +24,7 @@ function Navbar1() {
         <h6 className='nav1'> <Link to='/' style={{ textDecoration: 'none',color:'black' }} className='active'> Home</Link></h6>
         <h6 className='nav1'> <Link to='/Projects' style={{ textDecoration: 'none' ,color:'black' }} className='active'> Projects</Link></h6>
         <h6 className='nav1'> <Link to='/About' style={{ textDecoration: 'none',color:'black'  }} className='active'> About</Link></h6>
+        <h6 className='nav1'> <Link to='/contact' style={{ textDecoration: 'none',color:'black'  }} className='active'> Contact</Link></h6>
         </div>
 </div>
 

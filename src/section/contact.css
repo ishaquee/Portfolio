@@ -1,0 +1,74 @@
+.contact{
+    margin-top: 5px;
+    padding: 5px;
+}
+
+.contact > h2{
+    padding: 15px;
+    font-weight: 600;
+    margin: 15px;
+    transition: all 0.8s ease;
+    font-size: 45px;
+}
+
+.services{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-around;
+    justify-items: left;
+}
+
+.service > h5{
+    font-weight: bolder;
+    margin: 5px;
+}
+.service > p{
+    font-weight: 600;
+    letter-spacing: 2px;
+    color: black;
+
+}
+
+.contacts{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 50px;
+    justify-content: space-around;
+    justify-items: left;
+}
+
+.contact1{
+    width: 150px;
+    height: 150px;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+    border-radius: 10px;
+    transition: all 0.8s;
+    margin: 10px;
+
+}
+
+.service{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    background-color: rgb(255, 255, 255);
+    margin: 20px;  
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    max-width: 350px;
+    max-height: auto;
+    border-radius: 5px;
+    min-width: 300px;
+    min-height: 300px;
+}
+
+@media only screen and (max-width: 800px) {
+    .contact > h2 {   
+        font-size: 25px;
+    }
+    .service > p{
+        font-size: 12px;
+
+    }
+   
+  }
