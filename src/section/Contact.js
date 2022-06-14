@@ -56,7 +56,7 @@ function Contact() {
   </div>
 </div>
 <div>
-  <footer> Developer By <span style={{color:'darkred',fontWeight:'bolder'}}>Ishaque </span>  with 🖤</footer>
+  <footer> Developed By <span style={{color:'darkred',fontWeight:'bolder'}}>Ishaque </span>  with 🖤</footer>
 </div>
       </div>
   )
