@@ -20,7 +20,7 @@
     {
         "title" : "Ticket Reservation Webapp" ,
         "image" : "https://cdn.dribbble.com/users/722246/screenshots/2737322/find-_-book-meeting-rooms.gif",
-        "desc": "* Search & book train tickets  *Track your train Live Status  *Seat Availablity of the train  *Check ticket fare",
+        "desc": "Search & book train tickets, Track your train Live Status, Seat Availablity of the train, Check ticket fare",
         "url":"https://rr-system-2022.herokuapp.com/",
         "text":"Live",
         "technologies":["ReactJS","NodeJS","MongoDB"]

@@ -25,7 +25,7 @@ while making a significant contribution to the success of the company </p>
     </div>
     <div style={{borderBottom:'1px solid black',marginTop:'3px'}}>
     <h6 className='center' style={{fontWeight:'800'}}>PROJECTS </h6>
-    <p style={{fontWeight:'600',color:'black'}}>  Social Media Web APP Using MERN <img src='http://assets.stickpng.com/images/5ecec6ef73e4440004f09e75.png' width='40px' height='30px'/> </p>
+    <p style={{fontWeight:'600',color:'black'}}>  Social Media Web APP Using MERN <img src='https://www.transparentpng.com/thumb/logo-instagram/o0u6HK-logo-instagram-clipart-file.png' width='30px' height='30px'/> </p>
     <p style={{fontWeight:100}} className='date'> <BsFillCalendarDateFill/> Jan 2022 - May 2022 <BsFillCalendarDateFill/></p>
 
     <p style={{fontWeight:'600',color:'black'}}> <span style={{color:'red'}}>  Covid 19 </span> tracking Web APP <img src='https://upload.wikimedia.org/wikipedia/commons/thumb/8/82/SARS-CoV-2_without_background.png/800px-SARS-CoV-2_without_background.png' width='30px' height='30px'/> </p>

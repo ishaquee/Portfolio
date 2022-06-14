@@ -5,7 +5,9 @@ import {RiLiveFill} from 'react-icons/ri'
 function Projects() {
   return (
       <div className='ProjectPage'>
-          <h2 className='royal'>Project List</h2>
+          <h2 className='royal'> My Projects</h2>
+          <p className='center font' style={{color:'black',fontSize:'15px',fontWeight:'600',padding:'10px',margin:'10px',letterSpacing:'2px'}}> I've started my journey with programming back in 2018 with C (basics). I started again in the end of 2021 with WordPress and then started Web Development. Currently learning MERN and so far loving the journey...
+ </p>
           <div className='projects'>
               {
                  data ? data.map((item)=> {
@@ -16,13 +18,13 @@ function Projects() {
     <h5 className="card-title">{item.title}</h5>
     <p className="card-text">{item.desc} </p>
     <div className='tech'>
-      <h3 style={{color:'black',fontSize:'15px',fontWeight:'bold'}}> Technologies Used In this Projects </h3> 
+      <h3 style={{color:'black',fontSize:'14px',fontWeight:'bold'}}> Technologies Used In this Projects </h3> 
      { item.technologies ?   item.technologies.map((comment,index)=> 
        <h6 key={index} className='tech1'style={{fontWeight:'bold'}} > {comment} </h6>
      ) : '' } 
    </div>
    <div className='center'> 
-   <h5 style={{fontSize:'15px',fontWeight:'bold'}}>Click the button to see Project Live <span style={{color:'red'}}><RiLiveFill/></span>  </h5>
+   <h5 style={{fontSize:'12px',fontWeight:'bold',margin:'10px'}}>Click the button to see Project Live <span style={{color:'red'}}><RiLiveFill/></span>  </h5>
     <a href={item.url} target="_blank"  style={{textDecoration:'none',color:'black'}}> <div className='btn center'>  {item.text} </div> </a>
    </div>
   </div>

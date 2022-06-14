@@ -8,6 +8,7 @@
     grid-template-rows: repeat(5, 1fr);
     grid-column-gap: 0px;
     grid-row-gap: 0px;
+    height: 100vh !important;
     }
     
     .div1 { grid-area: 1 / 1 / 6 / 2; }
@@ -15,17 +16,14 @@
     .div3 { grid-area: 2 / 2 / 3 / 3; }
     .div4 { grid-area: 3 / 2 / 4 / 3; }
     .div5 { grid-area: 4 / 2 / 5 / 3; }
-    .div6 { grid-area: 5 / 2 / 6 / 3; }
 
 .date{
     font-family: 'Orbitron', sans-serif;
     font-size: smaller;
     }
 
-
-
 .div1{
-    width: 100%;
+    width: 90%;
     height: fit-content;
     background-color: rgb(226, 173, 76);
     padding: 15px;
@@ -140,7 +138,7 @@ a:hover {
 }
 @media only screen and (max-width: 800px) {
     .div1 {
-        width: 200px;
+        width: 250px;
         height: fit-content;
     }
    
