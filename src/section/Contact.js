@@ -4,8 +4,8 @@ import {FaWordpress,FaReact} from 'react-icons/fa'
 function Contact() {
   return (
     <div className='contact center'>
-      <h2>You want stunning website for yourself</h2>
-      <h2>Want to hire me for your freelancing works</h2>
+      <h2>You want stunning website for yourself ?</h2>
+      <h2>Want to hire me for your freelancing works ?</h2>
       <h6 style={{fontSize:'25px',fontWeight:'900'}}> <span style={{borderBottom:'0.1px solid black'}}> Serives </span></h6>
 
       <div className='center services'> 
@@ -17,7 +17,7 @@ function Contact() {
         </div>
         <div className='center service' >
           <img src='https://i.pinimg.com/originals/16/fe/7e/16fe7e7fb6eebb3087b6dc418748ee56.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px'}} />
-          <h5> <span style={{color:'red'}}> Front</span> end / UI  Development </h5>
+          <h5> <span style={{color:'red'}}> Front</span> end / <span style={{color:'red'}}> UI</span>  Development </h5>
           <p> We are Build web applications with web development best practices. Transform app designs into front-end code with HTML, CSS, and JavaScript </p>
         </div>
         <div className='service' >
