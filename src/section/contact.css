@@ -33,9 +33,11 @@
 .contacts{
     display: flex;
     flex-wrap: wrap;
-    margin: 50px;
-    justify-content: space-around;
-    justify-items: left;
+    margin: 10px;
+    justify-content: space-evenly;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
 }
 
 .contact1{

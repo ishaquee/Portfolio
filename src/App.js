@@ -7,7 +7,6 @@ import About from './section/About';
 import About1 from './section/About1';
 import Contact from './section/Contact';
 import Footer from './section/Footer';
-
 function App() {
 
   return (

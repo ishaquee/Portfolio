@@ -18,7 +18,7 @@ function Projects() {
     <h5 className="card-title">{item.title}</h5>
     <p className="card-text">{item.desc} </p>
     <div className='tech'>
-      <h3 style={{color:'black',fontSize:'14px',fontWeight:'bold'}}> Technologies Used In this Projects </h3> 
+      <h3 style={{color:'#FCEDDA',fontSize:'14px',fontWeight:'bold'}}> Technologies Used In this Projects </h3> 
      { item.technologies ?   item.technologies.map((comment,index)=> 
        <h6 key={index} className='tech1'style={{fontWeight:'bold'}} > {comment} </h6>
      ) : '' } 
