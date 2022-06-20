@@ -6,9 +6,9 @@ function About1() {
   return (
     <div className='about1'>
         <div className='story'>
-            <h2 className='center head'> Long story short about me </h2>
+            <h2 className='center head'> To cut a long story short, </h2>
             <p className='notes'>I am a Final-year engineering student at Karpgam college of Engineering, Coimbatore, currently undertaking my Bachelor in Computer Science Engineering.</p>
-            <p className='notes'>I'm a Tech-Enthusiast with experience in building Full-Stack Web Applications.</p>
+            <p className='notes'>I'm a tech enthusiast with experience in building full-stack web applications.</p>
         </div>
 
         <div className='story'>

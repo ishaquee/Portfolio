@@ -11,7 +11,7 @@ function Home() {
     <div className='home'>
           <div className='Homepage'> 
         <div className="profilepic">
-          <h2 style={{fontWeight:'900',color:'darkred',fontSize:'45px',letterSpacing:'3px',padding:''}}>Hello everyone! </h2>
+          <h2 style={{fontWeight:'900',color:'darkred',fontSize:'45px',letterSpacing:'3px',padding:''}}>Hi everyone! </h2>
         <h2 style={{fontWeight:'900',color:'darkred',fontSize:'45px',letterSpacing:'3px',padding:''}}> I'm  Mohamed Ishaque </h2>
 
                  <div className="typewriter">
@@ -25,10 +25,9 @@ function Home() {
        /> */}
       <TypeWriterEffect
             textStyle={{ fontSize: '25px' }}
-            startDelay={100}
             cursorColor="white"
             text="Welcome on my portfolio page! I'm a React & Nodejs Developer."
-            typeSpeed={200}
+            typeSpeed={100}
             
           />
        

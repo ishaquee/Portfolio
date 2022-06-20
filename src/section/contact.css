@@ -8,8 +8,9 @@
     font-weight: 600;
     margin: 15px;
     transition: all 0.8s ease;
-    font-size: 45px;
+    font-size: 35px;
 }
+
 
 .services{
     display: flex;
@@ -25,8 +26,9 @@
 }
 .service > p{
     font-weight: 600;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
     color: black;
+    font-size: 15px !important;
 
 }
 
@@ -66,7 +68,7 @@
 
 @media only screen and (max-width: 800px) {
     .contact > h2 {   
-        font-size: 25px;
+        font-size: 20px;
     }
     .service > p{
         font-size: 12px;

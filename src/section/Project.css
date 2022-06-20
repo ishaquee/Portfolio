@@ -6,18 +6,18 @@
     flex-wrap: wrap;
     color: black;
     font-weight: 900 !important;
+    margin-bottom: 5px;
 }
 .tech1{
     display: flex;
     flex-wrap: wrap;
     padding: 5px;
     margin: 2px;
+
     /* Created with https://www.css-gradient.com */
-background: #A2E781;
-background: -webkit-linear-gradient(top left, #A2E781, #BED2A4);
-background: -moz-linear-gradient(top left, #A2E781, #BED2A4);
-background: linear-gradient(to bottom right, #A2E781, #BED2A4);
-    font-weight: bolder;
+background: #006B38FF;
+color: #FFD662FF;
+    font-weight: 800;
     border-radius: 5px;
     font-size: 10px;
     letter-spacing: 2px;
@@ -45,28 +45,30 @@ background: linear-gradient(to bottom right, #A2E781, #BED2A4);
 }
 .card-title{
     font-weight: 900 !important;
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-family: 'Amatic SC', cursive;}
 
 .projects > .card{
     background-color: transparent;
-    color: #FCEDDA;
+    color: #333D79FF;
     font-weight: 700;
-    border-bottom: 3px solid rgb(0, 0, 0);
     padding: 10px;
-    max-height: 530px;
-    min-height: 500px;
-    border-radius: 15px;
-    background: #317773;
+    max-height: 600px;
+    min-height: 550px;
+    background: #FAEBEFFF;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+    transition: margin-left 200ms;
+    margin-left: -12em;
+    border-radius: 0px 35px 0px 35px;
+    border-right: 3px solid rgb(18, 177, 240);
+
 }
 .projects > .card >img{
-    border-radius: 10px;
+    border-radius: 100px;
     transition: all 0.8s ;
 }
 .card-text{
-    font-size: 13px;
-    max-height: 90px;
+    font-size: 15px;
     overflow: auto;
     margin-bottom: 10px;
     margin-top: 10px;
@@ -93,7 +95,7 @@ background: linear-gradient(to bottom right, #A2E781, #BED2A4);
     justify-content: center;
     justify-items: center;
     font-weight: bolder;
-    border-top: 1px solid black;
+    border-top: 0.1px solid rgb(0, 0, 0);
 margin-bottom: auto;
 }
 
@@ -112,3 +114,28 @@ margin-bottom: auto;
 background-color: brown;
 color: whitesmoke;
  }
+
+.card:hover + .card{
+    margin-left: -1em;
+} 
+
+
+
+@media only screen and (max-width: 800px) {
+   
+    .card:nth-child(odd){
+        border-radius: 0px 35px 0px 35px;
+        border-right: 3px solid rgb(18, 177, 240);
+    
+    }
+    
+    .card:nth-child(even){
+        border-radius: 35px 0px 35px 0px;
+        border-left: 3px solid rgb(18, 177, 240);
+        border-right: none;
+    
+    }
+    .projects > .card {
+        margin-left: 0px;
+    }
+  }

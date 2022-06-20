@@ -1,0 +1,47 @@
+[
+    {
+        "title" : "Covid 19 tracker" ,
+        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739035/portfolio/CoronavirusAnimation2_rctino.gif",
+        "desc": "Stay up-to-date with valuable coronavirus (COVID-19) data summarised by confirmed cases, testing, treatment and projections",
+        "url":"https://ncov19tracking.herokuapp.com/",
+        "text":"Live",
+        "technologies":["DJANGO","HTML","CSS"]
+
+    },
+    {
+        "title" : "Instagram Clone" ,
+        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739034/portfolio/insta_etxafn.gif",
+        "desc": "Instaclone is a social media web app where users can post their happiness and memories with their friends, and also add comments on posts.",
+        "url":"https://instaclone022.herokuapp.com/",
+        "text":"Live",
+        "technologies":["ReactJS","NodeJS","MongoDB"]
+
+    },
+    {
+        "title" : "Ticket Reservation Webapp" ,
+        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739035/portfolio/find-_-book-meeting-rooms_u7rdky.gif",
+        "desc": "Search and book train tickets. Track your train's live status. The train's seat availability Examine the ticket price. You can also check the hotel rooms prices and availability.",
+        "url":"https://rr-system-2022.herokuapp.com/",
+        "text":"Live",
+        "technologies":["ReactJS","NodeJS","MongoDB"]
+
+    },
+    {
+        "title" : "Close Buy Web App Using Google MAPS Places API" ,
+        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739035/portfolio/Maps_Timeline_hero_wlegjy.gif",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+        "url":"#",
+        "text":"Soon",
+        "technologies":["Google Maps API"]
+
+    },
+    {
+        "title" : "Distance Calculator Web App Using Distance Matrix API & Places API" ,
+        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739035/portfolio/NE7i_dt4o5w.gif",
+        "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
+        "url":"#",
+        "text":"Soon",
+        "technologies":["Distance Matrix API"]
+
+    }
+]  
