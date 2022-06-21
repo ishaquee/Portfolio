@@ -1,7 +1,82 @@
-.about1{
-    margin: 5%;   
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
+head,body{
+    background: url('https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?t=st=1655809019~exp=1655809619~hmac=4553ca10ee30ad9d1cd657211084a3e1b54aba152128c0e092ba192c5a407dc2&w=2000');
+
+}
+.abt1{
+    border-radius: 35PX;
+    padding: 1px;
+    margin: 30px;
 }
 
+.bbt:hover{
+    transform: scale(1.05);
+    transition: all 0.8s ease;
+}
+
+
+.center1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+    
+}
+
+.bio{
+    font-family: 'Jura', sans-serif;
+        font-weight: 900;
+        text-align:center;
+    font-size: 17px;
+    color:whitesmoke;
+
+}
+.name1{
+    font-family: 'Secular One', sans-serif;
+    float:inline-start;
+    color: wheat;
+}
+
+.role{
+    font-family: 'Amatic SC', cursive;
+    font-size: 20px;
+    float:inline-start;
+}
+
+.bbt{
+    width: 400px;
+    height: 250px;
+    padding: 30px;
+    border-radius: 15px;
+    background-image: linear-gradient(
+  120deg,
+  hsl(240deg 5% 7%) 0%,
+  hsl(255deg 10% 15%) 11%,
+  hsl(281deg 16% 23%) 22%,
+  hsl(298deg 22% 31%) 33%,
+  hsl(317deg 27% 39%) 44%,
+  hsl(337deg 32% 46%) 56%,
+  hsl(357deg 38% 55%) 67%,
+  hsl(16deg 43% 62%) 78%,
+  hsl(36deg 49% 70%) 89%,
+  hsl(55deg 54% 78%) 100%
+);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+}
+
+.image1 > img{
+
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    float: left;
+}
 .head{
     font-size: 35px;
     margin-top: 25px;
@@ -10,7 +85,7 @@
 }
 
 .story >.notes{
-    font-size: 25px;
+    font-size: 20px;
     margin: 15px;
     padding: 15px;
     font-weight: bold;
@@ -29,3 +104,9 @@
     transition: all 0.8s;
     color: whitesmoke;
 }
+@media only screen and (max-width: 800px) {
+    .about1{
+        margin-top: 200%;
+    }
+   
+  }

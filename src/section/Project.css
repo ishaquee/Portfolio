@@ -24,7 +24,7 @@ color: #FFD662FF;
 }
 
 .ProjectPage{
-    margin: 5%;
+    margin: 10px;
     color: rgb(0, 0, 0);
     padding: 5px;   
     
@@ -126,6 +126,7 @@ color: whitesmoke;
     .card:nth-child(odd){
         border-radius: 0px 35px 0px 35px;
         border-right: 3px solid rgb(18, 177, 240);
+        border-bottom: 3px solid rgb(18, 177, 240);
     
     }
     
@@ -133,6 +134,8 @@ color: whitesmoke;
         border-radius: 35px 0px 35px 0px;
         border-left: 3px solid rgb(18, 177, 240);
         border-right: none;
+        border-bottom: 3px solid rgb(18, 177, 240);
+
     
     }
     .projects > .card {

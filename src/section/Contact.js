@@ -37,12 +37,12 @@ function Contact() {
 
   <div className='contacts'>
     <div className='contact1'>
-    <img src='https://cdn.dribbble.com/users/2113992/screenshots/14510264/gmail_animation.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px',margin:'5px'}} />
+    <img src='https://res.cloudinary.com/instaclone2022/image/upload/v1655811272/portfolio/https___s3.amazonaws.com_appforest_uf_f1626355319613x484158047569452200_Gmail_Small_Business_aa4gbu.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px',margin:'5px'}} />
           {/* <h5>  <span style={{color:'darkorange',fontWeight:'bolder'}}> G</span>mail </h5> */}
           <a href='mailto:ishaquemohamed5@gmail.com' style={{textDecoration:"none"}}><h6 style={{fontWeight:'bold',padding:'10px',textDecoration:'none',color:'black'}}><span style={{color:'darkred'}}>G</span>mail </h6></a> 
     </div>
     <div className='contact1'>
-    <img src='https://www.edigitalagency.com.au/wp-content/uploads/linkedin-logo-gif-funny-man-suitcase.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px',margin:'5px'}} />
+    <img src='https://cliply.co/wp-content/uploads/2021/02/372102050_LINKEDIN_ICON_TRANSPARENT_1080.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px',margin:'5px'}} />
     <a href='https://www.linkedin.com/in/smishaque/' target="_blank" style={{textDecoration:"none"}}><h6 style={{fontWeight:'bold',padding:'10px',textDecoration:'none',color:'black'}}><span style={{color:'darkblue'}}> L</span>inkedin  </h6></a> 
     </div>
     <div className='contact1'>
