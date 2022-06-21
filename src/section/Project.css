@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@200&display=swap');
+
+
 
 .tech{
     display: flex;
@@ -7,6 +10,8 @@
     color: black;
     font-weight: 900 !important;
     margin-bottom: 5px;
+    font-family: 'Inconsolata', monospace;
+
 }
 .tech1{
     display: flex;
@@ -15,8 +20,8 @@
     margin: 2px;
 
     /* Created with https://www.css-gradient.com */
-background: #006B38FF;
-color: #FFD662FF;
+background: #FEFEDF;
+color: #492986;
     font-weight: 800;
     border-radius: 5px;
     font-size: 10px;
@@ -46,22 +51,23 @@ color: #FFD662FF;
 .card-title{
     font-weight: 900 !important;
     color: rgb(0, 0, 0);
-    font-family: 'Amatic SC', cursive;}
+    font-family: 'Amatic SC', cursive;
+}
 
 .projects > .card{
     background-color: transparent;
-    color: #333D79FF;
+    color: #FCF8FF;
     font-weight: 700;
     padding: 10px;
     max-height: 600px;
     min-height: 550px;
-    background: #FAEBEFFF;
+    background: #4E8397;
     box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
     transition: margin-left 200ms;
     margin-left: -12em;
     border-radius: 0px 35px 0px 35px;
-    border-right: 3px solid rgb(18, 177, 240);
-
+    border-right: 1px solid rgb(3, 3, 3);
+    width: 350px;
 }
 .projects > .card >img{
     border-radius: 100px;
@@ -72,9 +78,8 @@ color: #FFD662FF;
     overflow: auto;
     margin-bottom: 10px;
     margin-top: 10px;
-    font-family: 'Poppins', sans-serif !important;
+    font-family: 'Inconsolata', monospace;
 }
-
 .projects{
     display: flex;
     flex-wrap: wrap;
@@ -87,6 +92,9 @@ color: #FFD662FF;
    transform: scale(1.05);
    transition: all 0.8s ease;
 
+}
+.projects{
+    margin-left: 50px;
 }
 
 .projects > .card > .card-body > .center{
@@ -108,6 +116,8 @@ margin-bottom: auto;
   box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
  background-color:darkgray;
  color: black;
+ font-family: 'Inconsolata', monospace;
+
 
  }
  .btn:hover{
@@ -125,20 +135,21 @@ color: whitesmoke;
    
     .card:nth-child(odd){
         border-radius: 0px 35px 0px 35px;
-        border-right: 3px solid rgb(18, 177, 240);
-        border-bottom: 3px solid rgb(18, 177, 240);
+        border-right: 1px solid rgb(0, 0, 0);
+        border-bottom: 1px solid rgb(0, 0, 0);
     
     }
     
     .card:nth-child(even){
         border-radius: 35px 0px 35px 0px;
-        border-left: 3px solid rgb(18, 177, 240);
+        border-left: 1px solid rgb(0, 0, 0);
         border-right: none;
-        border-bottom: 3px solid rgb(18, 177, 240);
+        border-bottom: 1px solid rgb(0, 0, 0);
 
     
     }
     .projects > .card {
-        margin-left: 0px;
+        margin-left: auto;
+        width: 300px;
     }
   }

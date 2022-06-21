@@ -12,13 +12,13 @@ function Projects() {
               {
                  data ? data.map((item)=> {
                      return(
-<div className="card" style={{width:'300px'}}>
+<div className="card">
   <img className="card-img-top" src={item.image } style={{width:'200px',height:'200px'}} alt="Card  cap"/>
   <div className="card-body">
     <h5 className="card-title center">{item.title}</h5>
     <p className="card-text">{item.desc} </p>
     <div className='tech'>
-      <h3 style={{color:'black',fontSize:'13px',fontWeight:'bold'}}> Technologies Used In this Projects </h3> 
+      <h3 style={{color:'black',fontSize:'14px',fontWeight:'bold'}}> Technologies Used In this Projects </h3> 
      { item.technologies ?   item.technologies.map((comment,index)=> 
        <h6 key={index} className='tech1'style={{fontWeight:'bold'}} > {comment} </h6>
      ) : '' } 

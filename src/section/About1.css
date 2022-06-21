@@ -50,22 +50,10 @@ head,body{
 
 .bbt{
     width: 400px;
-    height: 250px;
+    height: 300px;
     padding: 30px;
     border-radius: 15px;
-    background-image: linear-gradient(
-  120deg,
-  hsl(240deg 5% 7%) 0%,
-  hsl(255deg 10% 15%) 11%,
-  hsl(281deg 16% 23%) 22%,
-  hsl(298deg 22% 31%) 33%,
-  hsl(317deg 27% 39%) 44%,
-  hsl(337deg 32% 46%) 56%,
-  hsl(357deg 38% 55%) 67%,
-  hsl(16deg 43% 62%) 78%,
-  hsl(36deg 49% 70%) 89%,
-  hsl(55deg 54% 78%) 100%
-);
+    background-color: #4E8397;
     box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
 
 }
@@ -86,8 +74,8 @@ head,body{
 
 .story >.notes{
     font-size: 20px;
-    margin: 15px;
-    padding: 15px;
+    margin: 10px;
+    padding: 10px;
     font-weight: bold;
 }
 
