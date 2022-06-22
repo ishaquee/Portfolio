@@ -52,12 +52,11 @@ head,body{
 }
 
 .bbt{
-    width: 30em;
+    width: 400px;
     height: 300px;
     padding: 30px;
     border-radius: 25px;
     background-color: #4E8397;
-
     box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 
 }
@@ -94,3 +93,10 @@ head,body{
     transition: all 0.8s;
     color: whitesmoke;
 }
+
+@media only screen and (max-width: 800px) {
+    .bbt{
+        height: 350px;
+    }
+   
+  }

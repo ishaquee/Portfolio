@@ -65,7 +65,7 @@ color: #492986;
     margin-left: -12em;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;    
     border-radius: 0px 35px 0px 35px;
-    border-right: 1px solid rgb(3, 3, 3);
+    border-right: 3px solid firebrick;
     width: 350px;
     transition: all 0.2s ease;
 
@@ -144,31 +144,27 @@ color: whitesmoke;
 @media only screen and (max-width: 800px) { 
     .card:nth-child(odd){
         border-radius: 0px 35px 0px 35px;
-        border-right: 1px solid rgb(0, 0, 0);
-        border-bottom: 1px solid rgb(0, 0, 0);
+       
     
     }
     
     .card:nth-child(even){
         border-radius: 35px 0px 35px 0px;
-        border-left: 1px solid rgb(0, 0, 0);
-        border-right: none;
-        border-bottom: 1px solid rgb(0, 0, 0);
+       
 
     
     }
     .projects > .card {
-        margin-left: auto;
         width: 350px !important;
+        margin-left: -2em;
+
     }
     .projects >  .card:hover + .card{
         transform: none !important;
-        margin-left: auto;
 
     } 
     .projects > .card:hover{
         transform: none !important;
-        margin-left: auto;
      }
     
     
