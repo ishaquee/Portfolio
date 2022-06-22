@@ -2,6 +2,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
 
 head,body{
     background: url('https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?t=st=1655809019~exp=1655809619~hmac=4553ca10ee30ad9d1cd657211084a3e1b54aba152128c0e092ba192c5a407dc2&w=2000');
@@ -32,7 +34,7 @@ head,body{
     font-family: 'Jura', sans-serif;
         font-weight: 900;
         text-align:center;
-    font-size: 17px;
+    font-size: 1.3em;
     color:whitesmoke;
 
 }
@@ -40,24 +42,25 @@ head,body{
     font-family: 'Secular One', sans-serif;
     float:inline-start;
     color: wheat;
+    font-size: 1.4em;
 }
 
 .role{
     font-family: 'Amatic SC', cursive;
-    font-size: 20px;
+    font-size: 1.5em;
     float:inline-start;
 }
 
 .bbt{
-    width: 400px;
+    width: 30em;
     height: 300px;
     padding: 30px;
-    border-radius: 15px;
+    border-radius: 25px;
     background-color: #4E8397;
-    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
 
 }
-
 .image1 > img{
 
     width: 100px;
@@ -73,12 +76,11 @@ head,body{
 }
 
 .story >.notes{
-    font-size: 20px;
-    margin: 10px;
-    padding: 10px;
+    font-size: 2em;
+    margin: 0.1em;
+    padding: 0.1em;
     font-weight: bold;
-}
-
+    font-family: 'Stick No Bills', sans-serif;}
 .goto{
    padding: 10px;
    margin: 10px;
@@ -92,9 +94,3 @@ head,body{
     transition: all 0.8s;
     color: whitesmoke;
 }
-@media only screen and (max-width: 800px) {
-    .about1{
-        margin-top: 200%;
-    }
-   
-  }

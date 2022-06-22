@@ -25,7 +25,7 @@ function Projects() {
    </div>
    <div className='center'> 
    <h5 style={{fontSize:'13px',fontWeight:'bold',margin:'10px'}}>Click the button to see Project Live <span style={{color:'red'}}><RiLiveFill/></span>  </h5>
-    <a href={item.url} target="_blank"  style={{textDecoration:'none',color:'black'}}> <div className='btn center'>  {item.text} </div> </a>
+    <a href={item.url} target="_blank"  style={{textDecoration:'none',color:'#FEFEDF'}}> <div className='btn center'>  {item.text} </div> </a>
    </div>
   </div>
 </div>

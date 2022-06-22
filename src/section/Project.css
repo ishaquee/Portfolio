@@ -62,12 +62,13 @@ color: #492986;
     max-height: 600px;
     min-height: 550px;
     background: #4E8397;
-    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
-    transition: margin-left 200ms;
     margin-left: -12em;
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;    
     border-radius: 0px 35px 0px 35px;
     border-right: 1px solid rgb(3, 3, 3);
     width: 350px;
+    transition: all 0.2s ease;
+
 }
 .projects > .card >img{
     border-radius: 100px;
@@ -111,12 +112,12 @@ margin-bottom: auto;
     height: auto;
     font-size: 15px;
     font-weight: 900;
-  width: 100px;
-  transition: all 0.8s ease;
-  box-shadow: rgba(0, 0, 0, 0.15) 2.4px 2.4px 3.2px;
- background-color:darkgray;
- color: black;
- font-family: 'Inconsolata', monospace;
+    width: 100px;
+    transition: all 0.8s ease;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+     background-color:darkgray;
+    color: black;
+    font-family: 'Inconsolata', monospace;
 
 
  }
@@ -125,14 +126,22 @@ background-color: brown;
 color: whitesmoke;
  }
 
-.card:hover + .card{
-    margin-left: -1em;
+.projects > .card:hover{
+    transition: all 0.8s ease;
+    transform: translateY(-1px) rotate(370deg);
+
+ }
+
+
+.card:hover+ .card { 
+    transition: all 0.8s ease;
+    transform: translateX(100px);
+
 } 
 
 
 
-@media only screen and (max-width: 800px) {
-   
+@media only screen and (max-width: 800px) { 
     .card:nth-child(odd){
         border-radius: 0px 35px 0px 35px;
         border-right: 1px solid rgb(0, 0, 0);
@@ -150,6 +159,17 @@ color: whitesmoke;
     }
     .projects > .card {
         margin-left: auto;
-        width: 300px;
+        width: 350px !important;
     }
+    .projects >  .card:hover + .card{
+        transform: none !important;
+        margin-left: auto;
+
+    } 
+    .projects > .card:hover{
+        transform: none !important;
+        margin-left: auto;
+     }
+    
+    
   }
