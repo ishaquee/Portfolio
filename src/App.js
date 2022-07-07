@@ -7,6 +7,7 @@ import About from './section/About';
 import About1 from './section/About1';
 import Contact from './section/Contact';
 import React  from 'react';
+import Projectcrono from './section/Projectcrono';
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route  path="/Projects"  element={<Projects />} />
         <Route  path="/resume"  element={<About />} />
         <Route  path="/contact"  element={<Contact />} />
+        <Route  path="*"  element={<Projectcrono />} />
         </Routes>
 </BrowserRouter>
 

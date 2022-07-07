@@ -4,22 +4,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:wght@100&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Stick+No+Bills:wght@200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@100&display=swap');
 
 head,body{
-    background: url('https://img.freepik.com/free-vector/white-gray-geometric-pattern-background-vector_53876-136510.jpg?t=st=1655809019~exp=1655809619~hmac=4553ca10ee30ad9d1cd657211084a3e1b54aba152128c0e092ba192c5a407dc2&w=2000');
-
+    background: url('data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8NDQ0NDQ0NDQ0NDQ0NDQ0NDw8NDQ0NFREWFhURFRUYHSggGBolGxUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0KFgoPDisZExorKysrKystLSsrKysrLSs3KystKysrKysrKysrLSsrKy0rKystKy0rKysrKys3NzcrK//AABEIAKgBKwMBIgACEQEDEQH/xAAXAAEBAQEAAAAAAAAAAAAAAAAAAQcC/8QAHhABAQACAgIDAAAAAAAAAAAAAAERITFhAsFBgaH/xAAUAQEAAAAAAAAAAAAAAAAAAAAA/8QAFBEBAAAAAAAAAAAAAAAAAAAAAP/aAAwDAQACEQMRAD8A3AAFEUEs46/QAAACUAAAVAAVAFBAURQAAAQFQAUQBPDxxMZt3bm7u7nHp0AAAAigAAJhQEABQQAAAAAAAAAABUUBFQFQs+lARQEVFABAFEBQAEVAUAAABFAQVAUQAFQAAFQUEAAUQFAARUAUAAARQAAAAAAAAAEwoAigAAgAAoCCoAAAAAAAKgAqACoAAAqKCAoCKAIqAoAAAIKAAgKioAKgKAAAAACCgIKAIoAigAigIKAAAAAAACAoICgAAAAAIqAqACiWa5x3OYoIAAqKAIAAoAICoqAqKgKIAoIAqKAACCgCRUBQAAABFAEAAAVFABFAAAABFAARQAAAAQUAAAAABAUABFARQAAAAAQUEABQAEAAFBFQAFAQIAqKgKioAoAIoAhJhQAAQIoAAAAAAAAAAAgCgAAgKIoAgAqAKIoAICooAACKAAgCgAIoAIoAigCKAIoCKAgAKAAgAoAIqKCQFARUAFAEABQAABFABFARQAAAABFAAABFSwFRQAAAAELNXeO58AAoAAAAAAAAAAAAAAAAAAAAAigAgAoAIKA//9k=');
 }
+
+.profilecard{
+    width: 300px;
+    height: 400px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-content: center;
+    justify-items: center;
+}
+
 .abt1{
     border-radius: 35PX;
-    padding: 1px;
+    padding: 10px;
     margin: 30px;
 }
-
-.bbt:hover{
-    transform: scale(1.05);
-    transition: all 0.8s ease;
-}
-
 
 .center1{
     display: flex;
@@ -28,45 +34,68 @@ head,body{
     align-content: center;
     justify-items: center;
     
+    
 }
 
 .bio{
     font-family: 'Jura', sans-serif;
         font-weight: 900;
         text-align:center;
-    font-size: 1.3em;
-    color:whitesmoke;
+    font-size: 15px;
+    color:rgb(0, 0, 0);
+    padding: 5px;
 
 }
 .name1{
     font-family: 'Secular One', sans-serif;
     float:inline-start;
-    color: wheat;
-    font-size: 1.4em;
+    color: royalblue;
+    font-size: 1.6em;
+    margin-top: 10px;
 }
 
 .role{
     font-family: 'Amatic SC', cursive;
-    font-size: 1.5em;
+    font-size: 1.2em;
     float:inline-start;
 }
 
 .bbt{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 420px;
     padding: 30px;
-    border-radius: 25px;
-    background-color: #4E8397;
-    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+    border-radius: 60px;
+    background-color: #ffffff;
+    box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em, rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+
+.socail-media{
+    display: flex;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+    align-content: space-around;
+    align-items: center;
+    justify-content: space-evenly;
+    justify-items:left;
+}
+.icons{
+    box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 25% !important;
+    color: radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%), radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%), radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%), radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent), linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);
 
 }
+
+
 .image1 > img{
 
     width: 100px;
     height: 100px;
     border-radius: 50%;
-    float: left;
 }
+
 .head{
     font-size: 35px;
     margin-top: 25px;
@@ -75,11 +104,11 @@ head,body{
 }
 
 .story >.notes{
-    font-size: 2em;
+    font-size: 1.7em;
     margin: 0.1em;
     padding: 0.1em;
     font-weight: bold;
-    font-family: 'Stick No Bills', sans-serif;}
+    font-family: 'Roboto Mono', monospace;}
 .goto{
    padding: 10px;
    margin: 10px;
@@ -96,7 +125,11 @@ head,body{
 
 @media only screen and (max-width: 800px) {
     .bbt{
-        height: 350px;
+        height: 450px;
+        padding: 35px !important;
+    }
+    .bio{
+        padding: 10px;
     }
    
   }
