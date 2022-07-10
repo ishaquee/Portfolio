@@ -22,7 +22,7 @@ head,body{
 }
 
 .abt1{
-    border-radius: 35PX;
+    border-radius: 30PX;
     padding: 10px;
     margin: 30px;
 }
@@ -104,7 +104,7 @@ head,body{
 }
 
 .story >.notes{
-    font-size: 1.7em;
+    font-size: 22px;
     margin: 0.1em;
     padding: 0.1em;
     font-weight: bold;

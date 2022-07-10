@@ -11,7 +11,6 @@
     font-weight: 900 !important;
     margin-bottom: 5px;
     font-family: 'Inconsolata', monospace;
-
 }
 .tech1{
     display: flex;
@@ -20,8 +19,8 @@
     margin: 2px;
 
     /* Created with https://www.css-gradient.com */
-background: #0c0c0c;
-color: #f0eef5;
+background: lightblue;
+color: black;
     font-weight: 800;
     border-radius: 5px;
     font-size: 10px;
@@ -32,7 +31,6 @@ color: #f0eef5;
     margin: 10px;
     color: rgb(0, 0, 0);
     padding: 5px;   
-    
 }
 .font{
     font-family: 'Poppins', sans-serif;
@@ -45,13 +43,15 @@ color: #f0eef5;
     align-content: center;
     font-weight: 900;
     font-family: monospace;
-    color: brown;
+    color: rgb(50, 42, 165);
     margin-top: 35px !important;
 }
 .card-title{
     font-weight: 900 !important;
     color: rgb(0, 0, 0);
     font-family: 'Amatic SC', cursive;
+    border-bottom: 0.1px solid rgb(0, 0, 0);
+
 }
 
 .projects > .card{
@@ -59,20 +59,17 @@ color: #f0eef5;
     color: darkblue;
     font-weight: 700;
     padding: 10px;
-    max-height: 600px;
-    min-height: 500px;
-    background: #ffffff;
-    margin-left: -12em;
     box-shadow: rgba(9, 30, 66, 0.25) 0px 4px 8px -2px, rgba(9, 30, 66, 0.08) 0px 0px 0px 1px;    
-    border-radius: 0px 35px 0px 35px;
-    border-right: 3px solid firebrick;
-    width: 350px;
+    border-radius: 30pt ;
+    max-width: 500px;
+    min-width: 330px;
     transition: all 0.2s ease;
+   
 
 }
 .projects > .card >img{
-    border-radius: 100px;
     transition: all 0.8s ;
+    border-radius: 15pt;
 }
 .card-text{
     font-size: 15px;
@@ -82,11 +79,13 @@ color: #f0eef5;
     font-family: 'Inconsolata', monospace;
 }
 .projects{
-    display: flex;
-    flex-wrap: wrap;
-    align-items: flex-start;
-    justify-content: space-evenly;
-    align-content: space-between;
+    align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+   
 }
 
 .projects > .card >img:hover{
@@ -104,7 +103,6 @@ color: #f0eef5;
     justify-content: center;
     justify-items: center;
     font-weight: bolder;
-    border-top: 0.1px solid rgb(0, 0, 0);
 margin-bottom: auto;
 }
 
@@ -126,51 +124,16 @@ background-color: brown;
 color: whitesmoke;
  }
 
-.projects > .card:hover{
-    transition: all 0.8s ease;
-    transform: translateY(-1px) rotate(370deg);
-
- }
-
-
-.card:hover+ .card { 
-    transition: all 0.8s ease;
-    transform: translateX(100px);
-
-} 
 
 
 
 @media only screen and (max-width: 800px) { 
-    .card:nth-child(odd){
-        border-radius: 0px 35px 0px 35px;
-        border-right: 3px solid firebrick;
-        border-bottom: 3px solid firebrick;
-
+    .projects > .card{
+        min-width: 350px !important;
+        padding: 10px;
     }
-    
-    .card:nth-child(even){
-        border-radius: 35px 0px 35px 0px;
-        border-left: 3px solid firebrick;
-        border-bottom: 3px solid firebrick;
-
-        border-right: none;
-
-
-    
+    .projects{
+        margin: 5%;
     }
-    .projects > .card {
-        width: 350px !important;
-        margin-left: -2em;
-
-    }
-    .projects >  .card:hover + .card{
-        transform: none !important;
-
-    } 
-    .projects > .card:hover{
-        transform: none !important;
-     }
-    
     
   }

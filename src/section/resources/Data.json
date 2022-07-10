@@ -1,7 +1,7 @@
  [
     {
         "title" : "Covid 19 tracker" ,
-        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739035/portfolio/CoronavirusAnimation2_rctino.gif",
+        "image" : "https://images.unsplash.com/photo-1584036561566-baf8f5f1b144?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8Y29yb25hdmlydXN8ZW58MHx8MHx8&w=1000&q=80",
         "desc": "Stay up-to-date with valuable coronavirus (COVID-19) data summarised by confirmed cases, testing, treatment and projections",
         "url":"https://ncov19tracking.herokuapp.com/",
         "text":"Live",
@@ -10,7 +10,7 @@
     },
     {
         "title" : "Instagram Clone" ,
-        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739034/portfolio/insta_etxafn.gif",
+        "image" : "https://clockwise.software/img/blog/how-to-build-a-social-network-website/header-background.png",
         "desc": "Instaclone is a social media web app where users can post their happiness and memories with their friends, and also add comments on posts.",
         "url":"https://instaclone022.herokuapp.com/",
         "text":"Live",
@@ -18,9 +18,9 @@
 
     },
     {
-        "title" : "Ticket Reservation Webapp" ,
-        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739035/portfolio/find-_-book-meeting-rooms_u7rdky.gif",
-        "desc": "Search and book train tickets. Track your train's live status. The train's seat availability Examine the ticket price. You can also check the hotel rooms prices and availability.",
+        "title" : "Live Train Status " ,
+        "image" : "https://www.ana.co.jp/cont-image/common/etc/1127-lang-multi.png",
+        "desc": "Track your train's live status. The train's seat availability Examine the ticket price. You can also check the hotel rooms prices and availability.",
         "url":"https://rr-system-2022.herokuapp.com/",
         "text":"Live",
         "technologies":["ReactJS","NodeJS","MongoDB"]
@@ -28,7 +28,7 @@
     },
     {
         "title" : "Close Buy Web App Using Google MAPS Places API" ,
-        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739035/portfolio/Maps_Timeline_hero_wlegjy.gif",
+        "image" : "https://evolve-systems.com/wp-content/uploads/2020/05/using-google-maps-for-your-business.png",
         "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
         "url":"#",
         "text":"Soon",
@@ -37,7 +37,7 @@
     },
     {
         "title" : "Distance Calculator Web App Using Distance Matrix API & Places API" ,
-        "image" : "https://res.cloudinary.com/instaclone2022/image/upload/v1655739035/portfolio/NE7i_dt4o5w.gif",
+        "image" : "https://play-lh.googleusercontent.com/eyjPyWRkQcBqYLzH99gareE6bbK2DxrkGEcc6_DnVzchQF_-9ERebhZWA_DWpG0te1c",
         "desc": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry",
         "url":"#",
         "text":"Soon",
