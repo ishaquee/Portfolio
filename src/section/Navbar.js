@@ -19,8 +19,8 @@ function Navbar1() {
 
 
 ///<img src='https://static.wixstatic.com/media/809fa5_c02c7069a7f246ed986e103ade08b3d1~mv2.gif' style={{width:'200px'}}/>
-
-<div style={{display:'flex',flexWrap:'wrap'}}>
+<div className='nav2'>
+<div style={{display:'flex',flexWrap:'wrap'}} > 
       <h2 className='heading'> <Link to='/' style={{ textDecoration: 'none' }}><img src='https://static.wixstatic.com/media/809fa5_c02c7069a7f246ed986e103ade08b3d1~mv2.gif' style={{width:'200px'}}/> </Link> </h2>
       <div className='nav1'>
         <h6 className='nav1'> <Link to='/' style={{ textDecoration: 'none',color:'black' }} className='active'> Home</Link></h6>
@@ -29,7 +29,7 @@ function Navbar1() {
         <h6 className='nav1'> <Link to='/contact' style={{ textDecoration: 'none',color:'black'  }} className='active'> Contact</Link></h6>
         </div>
 </div>
-
+</div>
   );
 }
 

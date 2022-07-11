@@ -1,6 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 
 
+
+.nav2{
+    top: 0;
+    right: 0;
+    left: 0;
+    position: sticky;
+    background-color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;    z-index: 9999; 
+    width: 100%;
+
+}
+
 .right{
     display: flex;
     float: right;

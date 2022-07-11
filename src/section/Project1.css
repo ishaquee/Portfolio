@@ -129,11 +129,15 @@ color: whitesmoke;
 
 @media only screen and (max-width: 800px) { 
     .projects > .card{
-        min-width: 350px !important;
-        padding: 10px;
+        min-width: 310px !important;
+        padding: 5px;
     }
     .projects{
         margin: 5%;
+    }
+    .projects > .card >img{
+        border-radius: 15pt;
+        margin: 10px;
     }
     
   }

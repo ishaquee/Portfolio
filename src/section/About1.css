@@ -99,14 +99,14 @@ head,body{
 .head{
     font-size: 35px;
     margin-top: 25px;
-    color: darkred;
+    color: rgb(0, 2, 139);
     font-weight: 900;
 }
 
 .story >.notes{
     font-size: 22px;
-    margin: 0.1em;
-    padding: 0.1em;
+    margin:  5px;
+    padding: 4px;
     font-weight: bold;
     font-family: 'Roboto Mono', monospace;}
 .goto{
@@ -130,6 +130,14 @@ head,body{
     }
     .bio{
         padding: 10px;
+    }
+    .story >.notes{
+        font-size: 19px;
+        margin: 5px;
+        padding: 5px;
+    }
+    .story > h2{
+        font-size: x-large;
     }
    
   }
