@@ -20,12 +20,12 @@ function Contact() {
           <p>collects and analyzes information across the commerce to form informed choices or help other groups individuals and administrations in making sound choices.</p>
         </div>
         <div className='service' >
-          <img src='https://onepatch.com/wp-content/uploads/2020/03/NODEJS_CIRCLE.gif' width={'100px'} height={'100px'} style={{borderRadius:'5px',margin:'5px'}} />
+          <img src='https://res.cloudinary.com/instaclone2022/image/upload/v1662286764/portfolio/nodejs-1-logo_wigj1k.png' width={'100px'} height={'100px'} style={{borderRadius:'5px',margin:'5px'}} />
           <h5> <span style={{borderBottom:'1px solid black'}}> <span style={{color:'darkgreen',fontWeight:'bolder'}}> Backend</span> Development </span> </h5>
           <p>We will be managing the exchange of data between the server and the users. We will be focusing on the development of all server-side logic, maintenance, and definition of the central database, and ensuring high performance and responsiveness to requests from the front-end.</p>
         </div>
         <div className='service' >
-        <img src='https://ideastack.com/wp-content/uploads/2021/03/1_t2535fzMDEJ0kW26N3IehA.gif' width={'100px'} height={'100px'} style={{borderRadius:'0px'}} />
+        <img src='https://res.cloudinary.com/instaclone2022/image/upload/v1662287279/portfolio/200w_b94ucf.gif' width={'100px'} height={'100px'} style={{borderRadius:'0px'}} />
 
           <h5>  <span style={{borderBottom:'0.1px solid black'}}> <span style={{color:'darkBlue'}}> Wordpress</span>  Development </span>  </h5>
           <p>We design and implement websites for companies using the WordPress creation tool. We are responsible for both front-end and back-end development, including the implementation of themes and plugins. Our goal is to create attractive and user-friendly websites according to client specifications.</p>

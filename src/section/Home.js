@@ -8,7 +8,7 @@ import './Home.css'
 
 function Home() {
   return (
-    <div className='home'>
+    <div className='home center'>
           <div className='Homepage'> 
         <div className="profilepic">
           <h2 style={{fontWeight:'900',color:'darkred',fontSize:'45px',letterSpacing:'3px',padding:''}}>Hi everyone! </h2>
@@ -24,10 +24,10 @@ function Home() {
        }}
        /> */}
       <TypeWriterEffect
-            textStyle={{ fontSize: '25px' }}
+            textStyle={{ fontSize: '25px',fontWeight:'600'}}
             cursorColor="white"
-            text="Welcome on my portfolio page! I'm a React & Nodejs Developer."
-            typeSpeed={100}
+            text="I am a Full Stack Developer with experience in developing web-based software"
+            typeSpeed={60}
             
           />
        

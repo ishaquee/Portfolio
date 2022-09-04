@@ -9,12 +9,12 @@
 
     },
     {
-        "title" : "Instagram Clone" ,
+        "title" : "Socialsoup" ,
         "image" : "https://clockwise.software/img/blog/how-to-build-a-social-network-website/header-background.png",
-        "desc": "Instaclone is a social media web app where users can post their happiness and memories with their friends, and also add comments on posts.",
+        "desc": "Socialsoup is a social media web app where users can post their happiness and memories with their friends, and also add comments on posts. realtime chat system with friends",
         "url":"https://instaclone022.herokuapp.com/",
         "text":"Live",
-        "technologies":["ReactJS","NodeJS","MongoDB"]
+        "technologies":["ReactJS","NodeJS","MongoDB","Socket.io"]
 
     },
     {
